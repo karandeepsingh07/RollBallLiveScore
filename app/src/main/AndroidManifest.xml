@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.karandeepsingh.rollball">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+    <supports-screens android:resizeable="true"
+    android:smallScreens="true"
+    android:normalScreens="true"
+    android:largeScreens="true"
+    android:xlargeScreens="true"
+    android:anyDensity="true" />
+    -->
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/RollBallTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <!-- <activity android:name=".MainActivity" /> -->
+        <activity
+            android:name="com.karandeepsingh.rollball.Main2Activity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.karandeepsingh.rollball.NewsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.karandeepsingh.rollball.Main3Activity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.karandeepsingh.rollball.Main4Activity" />
+        <activity
+            android:name="com.karandeepsingh.rollball.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.karandeepsingh.rollball.AboutActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.karandeepsingh.rollball.MessaginService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.karandeepsingh.rollball.MainPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.karandeepsingh.rollball.HomeActivity"
+            android:label="Roll Ball Live Score"
+            android:theme="@style/RollBallTheme.NoActionBar" />
+        <activity android:name="com.karandeepsingh.rollball.Main5Activity" />
+    </application>
+
+</manifest>

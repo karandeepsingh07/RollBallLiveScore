@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Roll Ball Live Score</string>
+    <string name="title_activity_front_">Front_Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="tab1title">Home</string>
+    <string name="tab2title">Live Score</string>
+    <string name="tab3title">Info</string>
+    <string name="tab4title">Registration</string>
+    <string name="title_activity_main_page">Roll Ball Live</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Matches</string>
+    <string name="title_WebsiteRB">Website</string>
+    <string name="title_RegistrationRB">Registration</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="nav_header_title">Roll Ball</string>
+    <string name="nav_header_subtitle">Balance~Speed~Accuracy~Team Work</string>
+    <string name="nav_header_desc">Navigation header</string>
+</resources>

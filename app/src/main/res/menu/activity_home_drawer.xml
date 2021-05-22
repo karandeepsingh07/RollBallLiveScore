@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homefrg"
+            android:icon="@drawable/homeicn"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/aboutrb"
+            android:title="About Roll Ball" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/history"
+            android:title="Roll Ball History" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/rbfi"
+                android:icon="@drawable/infoicn"
+                android:title="Website"/>
+            <item
+                android:id="@+id/applink"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share App"/>
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AboutrbFragment"
+    android:layout_marginBottom="50dp"
+    android:background="@drawable/blue_gradient">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"
+                android:text="About ROll Ball"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textAbout"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="Roll Ball is a team sport that combines aspects of basketball, handball and roller sports into a single sport. In rollball all players are on roller skates and the objective is to score goals by shooting the ball through opposing team's goal posts. Rollball was invented in India, and is currently played in 19 other countries in the world.\n\n
+    The sport can be played both indoors and outdoors, and on wooden or asphalt surfaces. There is also a version of rollball played on ice. The playing area is 28-40m in length and 15-20m in width. A ball similar in size to that of a basketball is used. The goal posts used are similar in size to that of handball goalposts.\n\n
+    A match is played between two 6-player teams, with a designated goalkeeper in each team. The duration of the match varies based on what level the game is played at. At the senior level, matches are played for two 20-minute periods.\n\n
+    Players are not allowed to carry the ball. The ball can be moved by either dribbling or passing. While dribbling, unlike basketball, players are allowed to use both the hands.\n\n
+    There is World Cup conducted for rollball every two years, which is the highest level competition for the sport."/>
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</FrameLayout>

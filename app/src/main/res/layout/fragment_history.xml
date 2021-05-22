@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HIstoryFragment"
+    android:layout_marginBottom="50dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/blue_gradient">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"
+                android:text="History of Roll Ball"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textHistory"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="A sports talented personality of Pune Mr. Raju R. Dabhade has invented NEW GAME CALLED ROLLBALL Basically he was fascinated by the thrill of Roller skates since his childhood. He was champion on Roller Skates at his time. He imparts roller skating training. The idea of this new game conceived in his mind for years together. After making careful study of all the aspects of this game he has come up with his own ideas of Roll Ball. Shri. Raju Dabhade was awarded the “Raja Mantri puraskar’’ by the Chief Minister of Maharashtra Mr.. Vilasrao Deshmukh on 19th December 2005, for his contribution towards Roll ball and Roller skating. This has given a boost not only the Mr. Raju Dabhade but also to the game of Roll Ball. He shared his idea with colleagues in MES Balshikshan Mandir English Medium School, Kothrud,Pune, where he is a sport teacher.\n\n
+    His colleagues supported his idea whole heartedly and helped him setting up the Basic and Technical Rules and Regulations for this new game. An elaborate maiden effort is made to cover most of the Basic and Technical facets of the game. Wherever needed the material is supported with the help of figures, signs, diagrams etc. The experiment was going on for nearly two years. With suitable changes and modifications from time to time the game took final shape. The demonstration was organized with the help of Principal Dr. Sunita Bhagwat, Sunil Raibagi, Pravin Gokhale,Shrikant Shirlekar, Ujjwala Barve and parents of MES Balshikshan Mandir.\n\n
+    On 2nd February,2003 this new game Roll Ball was presented to the world of sports. This is a team game played on Roller Skates with dribbling the ball and shooting it into opponent’s goal post.  This fast and thrilling game has spread worldwide in a very short period of time as it tests all the physical abilities of a player and makes him strong. This game is surely the game of the future and is attracting the youth very much.\n\n
+    This game is recognized by the Ministry of Youth Affairs and Sports Govt. of India and is being played for the last 5 years at the School National Championship in 14, 17, 19 Boys and Girls Age Groups organized by the School Games Federation of India.  Till now various National Championships have been organized for Mini, sub-Junior, Junior, Senior Boys and Girls age groups since 2003 and at the international level."/>
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

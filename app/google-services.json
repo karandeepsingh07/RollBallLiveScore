@@ -1,0 +1,167 @@
+{
+  "project_info": {
+    "project_number": "977706283788",
+    "firebase_url": "https://rollballscore.firebaseio.com",
+    "project_id": "rollballscore",
+    "storage_bucket": "rollballscore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977706283788:android:9d7fece72d536bb2",
+        "android_client_info": {
+          "package_name": "com.karandeepsingh.rollball"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977706283788-3fc4it6eb7adqf27hvol1c4gc9u9gjfl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karandeepsingh.rollball",
+            "certificate_hash": "61a69b936e08da33a35cee21683d56b645c5a4d1"
+          }
+        },
+        {
+          "client_id": "977706283788-b8kng2avdlot8a9fu1o6lp7r86h6gf6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9fX0saAjjBahb_K08McBpNCRQmsfictk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977706283788-b8kng2avdlot8a9fu1o6lp7r86h6gf6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977706283788:android:0ec523b73582841b",
+        "android_client_info": {
+          "package_name": "com.karandeepsingh.rollballlivescore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977706283788-eug5mcej950hcuibttt8gb27msupscjv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karandeepsingh.rollballlivescore",
+            "certificate_hash": "61a69b936e08da33a35cee21683d56b645c5a4d1"
+          }
+        },
+        {
+          "client_id": "977706283788-20ihghs752qee3g066glnv8ncjb82t28.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karandeepsingh.rollballlivescore",
+            "certificate_hash": "91efd1d4a7ecedb06beffe10103b876b32a86469"
+          }
+        },
+        {
+          "client_id": "977706283788-r21fvj3sbn4ceo1i6f1ppgsf3vvho0ri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karandeepsingh.rollballlivescore",
+            "certificate_hash": "668eab0fd174d92c62b2b2db03eada851b498cee"
+          }
+        },
+        {
+          "client_id": "977706283788-509bbbqmqsts074v75b8urhqlc8n2l67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karandeepsingh.rollballlivescore",
+            "certificate_hash": "933a3a5fa91675eb74a55299848687e0eeaa749d"
+          }
+        },
+        {
+          "client_id": "977706283788-b8kng2avdlot8a9fu1o6lp7r86h6gf6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9fX0saAjjBahb_K08McBpNCRQmsfictk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977706283788-b8kng2avdlot8a9fu1o6lp7r86h6gf6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977706283788:android:8df8587060f5cf24",
+        "android_client_info": {
+          "package_name": "com.karandeepsingh.scoreupdaterollball"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977706283788-h1s83bemp0l1pmp4a7o8btlp1befff78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karandeepsingh.scoreupdaterollball",
+            "certificate_hash": "61a69b936e08da33a35cee21683d56b645c5a4d1"
+          }
+        },
+        {
+          "client_id": "977706283788-b8kng2avdlot8a9fu1o6lp7r86h6gf6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9fX0saAjjBahb_K08McBpNCRQmsfictk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977706283788-b8kng2avdlot8a9fu1o6lp7r86h6gf6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
